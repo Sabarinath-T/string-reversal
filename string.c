@@ -4,7 +4,7 @@ int main()
 {   int n=0,i,j;
     char word[20],reversed[n];
     printf("enter the string");
-    scanf("%s",word);
+    scanf("%19s",word);
     n=strlen(word);
     reversed[n]='\0';
     printf("word:%s\nlength=%d",word,n);
